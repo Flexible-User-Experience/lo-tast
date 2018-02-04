@@ -35,7 +35,7 @@ twig:
     form_themes:
         - "bootstrap_3_layout.html.twig"
     globals:
-        admin_tag_version:        "v1.0.00"
+        admin_tag_version:        "v1.0.01"
         google_analytics_enabled: "%google_analytics_enabled%"
         google_analytics_account: "%google_analytics_account%"
         google_maps_api_key:      "%google_maps_api_key%"
