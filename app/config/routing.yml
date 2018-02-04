@@ -1,0 +1,4 @@
+app_front:
+    resource: '@FluxFrontendBundle/Controller'
+    type:     annotation
+    prefix:   /

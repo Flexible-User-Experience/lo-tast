@@ -1,0 +1,43 @@
+{% extends "::base.html.twig" %}
+
+{% block title %}Lo Tast{% endblock %}
+
+{% block body %}
+    <div class="site-wrapper">
+        <div class="site-wrapper-inner">
+            <div class="cover-container">
+                <div class="inner cover">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h1 class="sr-only">Lo Tast</h1>
+                            <img src="{{ asset('bundles/fluxfrontend/images/lo-tast.png') }}" alt="Lo Tast · Pati de Menjars" class="img-responsive"/>
+                            <hr/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <p class="lead">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3027.321028603153!2d0.6885673000000095!3d40.64485329999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a107450f802469%3A0x58ca64f26502b938!2sRonda+del+Mar%2C+23%2C+43549+Poble+Nou%2C+Tarragona!5e0!3m2!1ses!2ses!4v1430069141255" width="100%" height="500" frameborder="0" style="border:0"></iframe>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <p class="lead">
+                                <span class="glyphicon glyphicon-map-marker"></span> C. Ronda del Mar, 23<br>
+                                <span style="color:#FFF" class="glyphicon glyphicon-map-marker"></span> 43549 Poble Nou del Delta<br>
+                                <span style="color:#FFF" class="glyphicon glyphicon-map-marker"></span> Tarragona<br><br>
+                            </p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="lead text-right">
+                                <span class="glyphicon glyphicon-earphone"></span> (+34) 619 488 864<br>
+                                <a href="mailto:lotast@lotast.cat"><span class="glyphicon glyphicon-envelope"></span> lotast@lotast.cat</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
